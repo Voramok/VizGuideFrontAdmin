@@ -1,0 +1,32 @@
+.bidivchild{
+    /*position: absolute;*/
+    bottom: 0;
+  }
+
+  .bidivparent{
+    position: relative;
+    margin-top: 5px;
+  }
+
+  .itemsdescr {
+    bottom: 0;
+  }
+
+  .oneline {
+    display:inline-block;
+   }
+
+   .maxwidth {
+    max-width: 700px;
+   }
+
+   .divborder {
+    padding: 3px;
+    border-width:1px;
+    border-color: rgb(0,0,0);
+    border-style: solid;
+    max-width: 708px;
+   }
+
+
+

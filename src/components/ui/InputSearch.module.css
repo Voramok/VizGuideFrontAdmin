@@ -1,0 +1,38 @@
+.search {
+    padding:10px;
+    width:300px;
+    display:block;
+    margin:0 auto;
+    margin-bottom:10px;
+    -webkit-border-radius:6px;
+       -moz-border-radius:6px;
+            border-radius:6px;
+    border:none;
+    color:#34495E;
+    outline:none;
+  }
+  
+  .search:focus {
+    background: #FFF	;
+    border:2px solid #34495E;
+    color:#34495E;
+    font-weight:600;
+  }
+  
+  .search::-webkit-input-placeholder {
+     color:  #c0c0c0;
+  }
+  
+  .search:-moz-placeholder { 
+     color: #c0c0c0;
+  }
+  
+  .search::-moz-placeholder {
+     color: #c0c0c0;
+  }
+  
+  .search:-ms-input-placeholder {  
+     color: #c0c0c0;
+  }
+
+

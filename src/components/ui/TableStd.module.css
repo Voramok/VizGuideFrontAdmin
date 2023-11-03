@@ -1,0 +1,6 @@
+.tablestd tr td{
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 3px;
+  min-width: 150px;
+}

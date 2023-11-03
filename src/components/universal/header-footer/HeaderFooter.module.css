@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+
+.mainbody{
+  /*background: url(C:/viz-guide/public/image.jpg);*/ /* Путь к картинке */
+  background-color: #3c5877;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Закрепляем изображение */
+  height: 100vh;
+  overflow-x: hidden;
+} 
+
+.mainfooter {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.mainheader {
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  width: 100%;
+}
+
+.maincontent{
+  /*backdrop-filter: blur(4px);*/
+  position: relative;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10px;
+  margin-top: calc(200px - 3%);
+  margin-bottom: calc(100px - 2%); 
+  z-index: 1;
+}
+
+.maincontentbg{
+  backdrop-filter: blur(4px);
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+  /*margin-top: calc(200px - 4%);*/
+  height: 100vh;
+  position: fixed;
+}
+
