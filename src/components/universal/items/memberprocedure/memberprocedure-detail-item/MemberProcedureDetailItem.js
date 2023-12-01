@@ -10,7 +10,7 @@ const MemberProcedureDetailItem = ({ memberProcedure }) => {
       <tr className={styles.fontcolor}>
         <td>
           <div className={styles.oneline}>{memberProcedure.isFunction} <b>{memberProcedure.name}</b>({memberProcedure.signature})</div>
-          {memberProcedure.isFunction === 'function' ?
+          {memberProcedure.isFunction === 'Function' ?
             (
               <div className={styles.oneline}>&nbsp;as {memberProcedure.returnType}</div>
             ) : (
@@ -27,7 +27,7 @@ const MemberProcedureDetailItem = ({ memberProcedure }) => {
       <tr>
         <td>
           <div className={styles.oneline}>{memberProcedure.isFunction} <b>{memberProcedure.name}</b>({memberProcedure.signature})</div>
-          {memberProcedure.isFunction === 'function' ?
+          {memberProcedure.isFunction === 'Function' ?
             (
               <div className={styles.oneline}>&nbsp;as {memberProcedure.returnType}</div>
             ) : (

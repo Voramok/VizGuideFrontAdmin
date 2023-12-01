@@ -37,7 +37,7 @@ const MemberProcedureItem = ({ memberProcedure, data, searchInput, searchFilter 
               memberProcedure.name
             )}
           </b>({memberProcedure.signature})</div>
-          {memberProcedure.isFunction === 'function' ?
+          {memberProcedure.isFunction === 'Function' ?
             (
               <div className={styles.oneline}>&nbsp;as {memberProcedure.returnType}</div>
             ) : (
@@ -78,7 +78,7 @@ const MemberProcedureItem = ({ memberProcedure, data, searchInput, searchFilter 
               memberProcedure.name
             )}
           </b>({memberProcedure.signature})</div>
-          {memberProcedure.isFunction === 'function' ?
+          {memberProcedure.isFunction === 'Function' ?
             (
               <div className={styles.oneline}>&nbsp;as {memberProcedure.returnType}</div>
             ) : (
